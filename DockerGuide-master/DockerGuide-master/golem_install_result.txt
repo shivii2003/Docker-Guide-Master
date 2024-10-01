@@ -1,0 +1,104 @@
+az@tazzhangnotepad:~/fs/test/golem$ ./install.sh 
+Docker not found. Do you want to install it? (y/n) y
+dpkg-query: 系统没有安装软件包 nvidia-docker2，因而没有相关的信息
+使用 dpkg --info (= dpkg-deb --info) 来检测打包好的文件，
+还可以通过 dpkg --contents (= dpkg-deb --contents) 来列出它们的内容。
+nvidia-docker not found. Do you want to install it? (y/n) y
+
+
+INSTALLING GOLEM DEPENDENCIES
+
+[sudo] taz 的密码： 
+
+
+INSTALLING DOCKER
+
+OK
+
+
+INSTALLING NVIDIA-DOCKER
+
+OK
+deb https://nvidia.github.io/libnvidia-container/ubuntu16.04/$(ARCH) /
+deb https://nvidia.github.io/nvidia-container-runtime/ubuntu16.04/$(ARCH) /
+deb https://nvidia.github.io/nvidia-docker/ubuntu16.04/$(ARCH) /
+已对所有源启用了 “multiverse” 发行版组件。
+
+
+Installing HyperG
+
+-                                100%[==========================================================>]  48.94M   262KB/s    in 2m 23s  
+W: 仓库 “cdrom://Ubuntu 16.04.2 LTS _Xenial Xerus_ - Release amd64 (20170215.2) xenial Release” 没有 Release 文件。
+E: 无法下载 cdrom://Ubuntu 16.04.2 LTS _Xenial Xerus_ - Release amd64 (20170215.2)/dists/xenial/main/binary-amd64/Packages  请使用 apt-cdrom，通过它可以让 APT 识别该盘片。apt-get upgdate 不能被用来加入新的盘片。
+E: 部分索引文件下载失败。如果忽略它们，那将转而使用旧的索引文件。
+
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面要求屏幕画面必须为至少 13 行高及 31 列宽.)
+debconf: 返回前端界面：Readline
+
+
+
+Docker installed successfully
+
+
+
+Done installing Golem dependencies
+
+
+
+Installing Golem
+
+
+
+Downloading Golem package
+
+-                                100%[==========================================================>] 177.42M   459KB/s    in 6m 52s  
+
+
+Downloading ui package (it may take awhile)
+
+-                                100%[==========================================================>]  52.47M   315KB/s    in 1m 54s  
+
+
+Installing Golem into /home/taz/golem
+
+
+
+You need to restart your PC to finish installation
